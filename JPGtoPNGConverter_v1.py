@@ -57,8 +57,8 @@ if not check_dest_exist(dest_dir):
 jpg_list = sublist_of_stringlist('.jpg', os.listdir(source_dir))
 
 #Consulto sobre el ancho y alto de los files .png
-ancho=int(input('Ancho de imagen .png: '))
-alto=int(input('Alto de imagen .png: '))
+ancho=int(input('.Ancho de imagen .png: '))
+alto=int(input('.Alto de imagen .png: '))
 
 # recorro los archivos .jpg, convierto sus nombres a .png y los grabo como .png
 for jpg_file in jpg_list:
